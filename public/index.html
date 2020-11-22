@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>weather here</title>
+  </head>
+  <body>
+    <h1>The Weather Here</h1>
+    <span>
+      <a id="checkin" href="/">checkin</a> |
+      <a href="/logs">logs</a>
+    </span>
+    <div class="coordinates"></div>
+    <p>
+      laditude: <span id="latitude"></span><br />
+      longitude: <span id="longitude"></span><br />
+      temperature: <span id="temperature"></span><br />
+      air quality: <span id="air_quality"></span><br />
+    </p>
+    <!-- <button class="btn" onclick="showLocation()">check in</button> -->
+    <script src="geo.js"></script>
+  </body>
+</html>

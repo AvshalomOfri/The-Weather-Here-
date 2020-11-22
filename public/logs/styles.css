@@ -1,0 +1,18 @@
+a {
+  font-size: 4vh;
+  margin: 5px;
+}
+
+.item-cont {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin-top: 10px;
+  padding: 5px;
+  border-style: solid 0.1px;
+  border-radius: 5px;
+  background-color: rgb(234, 229, 238);
+  font-weight: 700;
+  width: 18vw;
+}
